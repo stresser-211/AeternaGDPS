@@ -1,0 +1,10 @@
+<FilesMatch "\.htm$">
+	Deny from all
+</FilesMatch>
+
+RewriteEngine On
+
+<FilesMatch "\.(mp3|ogg)$">
+	RewriteCond %{HTTP_REFERER} !aeterna-211.web.app/test.html
+	RewriteRule ^ - [F]
+</FilesMatch>

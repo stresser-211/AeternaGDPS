@@ -1,0 +1,9 @@
+.firebase/
+node_modules/
+server (backup)/
+tmp/
+service_account_key.json
+package-lock.json
+*.ogg
+*.mp3
+*.gmd
