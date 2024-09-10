@@ -1,4 +1,4 @@
-<FilesMatch "\.htm$">
+<FilesMatch "\.js$">
 	Deny from all
 </FilesMatch>
 
